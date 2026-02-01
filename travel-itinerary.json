@@ -1,0 +1,42 @@
+{
+  "tripName": "Carribean Adventure",
+  "traveler": {
+    "name": "Lyndsey Clarkson",
+    "contact": {
+      "email": "lynsdeydj1808@gmail.com",
+      "phone": "6361231234"
+    }
+  },
+  "destinations": [
+    {
+      "location": "Aruba",
+      "arrivalDate": "2026-12-12",
+      "departureDate": "2026-12-17",
+      "activities": [
+        {
+          "title": "Wild Dolphin Encounter",
+          "time": "10:00 AM"
+        },
+        {
+          "title": "Morning Yoga",
+          "time": "8:00 AM"
+        }
+      ]
+    },
+    {
+      "location": "Curacao",
+      "arrivalDate": "2026-12-17",
+      "departureDate": "2026-12-22",
+      "activities": [
+        {
+          "title": "Snorkeling",
+          "time": "9:00 AM"
+        },
+        {
+          "title": "Sunset Catamaran",
+          "time": "6:00 PM"
+        }
+      ]
+    }
+  ]
+}
