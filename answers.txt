@@ -1,0 +1,20 @@
+Answer the questions:
+
+1. Nesting: How did you organize the additional details in the traveler field, and how does it improve the organization of the data overall?
+    - I nested them by making the "traveler" field a nested object. Then since "contact" had two fields, I made it a
+    nested object within "traveler" too, with the "phone" and "email" fields.
+
+2. Arrays: For the destinations and activities, what data structure did you use? What impact did this decision have?
+    - For "destinations" I used an array of objects. I also did an array of objects for "activities" too. Each object within "destinations" 
+    has a "location", "arrivalDate", "departureDate", and "activities"— "activities" being an array. Each object in the "activities" array 
+    has a "title" and "time".
+
+3. Scalability: How could this JSON structure be expanded to include additional details, such as hotel information or transportation options?
+    - Hotel information would be a field/key within each object in the "destinations" array, and would be an array itself since there are multiple 
+    hotels to consider for each destination. The same with transportation. You just have to think about how the new information you want would fit in
+    best. 
+
+4. Real-World Application: How would this data be useful in a travel app or API?
+    - It would be very useful in a travel app or API since whenever you type in a destination, you get the related information about that destination 
+    like different activities to do, hotels nearby, and more.
+

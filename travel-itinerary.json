@@ -21,7 +21,11 @@
           "title": "Morning Yoga",
           "time": "8:00 AM"
         }
-      ]
+      ],
+      "transportation": {
+        "mode": "Flight",
+        "cost": 200.00
+      }
     },
     {
       "location": "Curacao",
@@ -36,7 +40,30 @@
           "title": "Sunset Catamaran",
           "time": "6:00 PM"
         }
-      ]
+      ],
+      "transportation": {
+        "mode": "Flight",
+        "cost": 300.00
+      }
+    },
+    {
+      "location": "Jamaica",
+      "arrivalDate": "2026-5-10",
+      "departureDate": "2026-5-17",
+      "activities": [
+        {
+          "title": "Snorkeling",
+          "time": "10:00 AM"
+        },
+        {
+          "title": "Silver Birds Steel Orchestra Concert",
+          "time": "7:00 PM"
+        }
+      ],
+      "transportation": {
+        "mode": "Flight",
+        "cost": 200.00
+      }
     }
   ]
 }
